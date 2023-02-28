@@ -24,6 +24,15 @@ using std::streamsize;
 using std::numeric_limits;
 using std::vector;
 
+struct Studentas
+{
+    string vardas, pavarde;
+    vector<int> paz;
+    float egz=0;
+    double vid=0, med=0;
+};
 
+void pild(vector<Studentas> &studentai, int n);
+void spausd(Studentas &temp, char rezimas);
 
 #endif // MYLIB_H_INCLUDED
